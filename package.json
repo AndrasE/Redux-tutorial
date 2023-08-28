@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "redux": "^4.2.1"
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6"
   },
   "name": "redux-tutorial",
   "version": "1.0.0",
