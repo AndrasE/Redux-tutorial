@@ -34,6 +34,23 @@ const fetchUsersFailure = (error) => {
   };
 };
 
+const fetchUsers = () => {
+  return function (dispatch) {
+    dispatch(fetchUsersRequest())
+    axios
+      .get('https://jsonplaceholder.typicode.com/usears')
+      .then(response => {
+        // response.data is the users
+        const users = response.data.map(user => user.id)
+        dispatch(fetchUsersSuccess(users))
+      })
+      .catch(error => {
+        // error.message is the error message
+        dispatch(fetchUsersFailure(error.message))
+      })
+  }
+}
+
 const reducer = (state = initalState, action) => {
   switch (action.type) {
     case FETCH_USERS_REQUEST:
@@ -56,25 +73,8 @@ const reducer = (state = initalState, action) => {
   }
 };
 
-const fetchUsers = () => {
-  return function (dispatch) {
-    dispatch(fetchUsersRequest())
-    axios
-      .get('https://jsonplaceholder.typicode.com/users')
-      .then(response => {
-        // response.data is the users
-        const users = response.data.map(user => user.id)
-        dispatch(fetchUsersSuccess(users))
-      })
-      .catch(error => {
-        // error.message is the error message
-        dispatch(fetchUsersFailure(error.message))
-      })
-  }
-}
-
 const store = createStore(reducer, applyMiddleware(thunkMiddleware));
 store.subscribe(() => {
   console.log(store.getState());
 });
-store.dispatch(fetchUsers);
+store.dispatch(fetchUsers());
