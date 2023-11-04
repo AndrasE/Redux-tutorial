@@ -7,7 +7,7 @@
 ## Hey 👋
 Following a tutorial on YT went through some of the basics to start with on Redux without any UI. <br>
 This repo served as a fundation of
-<a href="https://github.com/AndrasE/Redux-tutorial" target="_blank" rel="noopener noreferrer">React-Redux Tutorial</a>
+<a href="https://github.com/AndrasE/Redux-tutorial" target="_blank" rel="noopener noreferrer">React-Redux Tutorial</a>.
 <br>
 Included a pdf with my notes from the classes. justsomeRedux ✌️
 <br><br>
