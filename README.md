@@ -12,9 +12,7 @@ This repo served as a fundation of
 Included a pdf with my notes from the classes. justsomeRedux ✌️
 <br><br>
 Subjects: Basic principles, Actions, Action-creators, Reducers, Multiple Reducers, Combining Reducers, Middleware, Async actions, Async action creators <br>
-<a href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK" target="_blank" rel="noopener noreferrer">React Redux Tutorial</a>
-<br><br>
-by Codevolution.
+<a href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK" target="_blank" rel="noopener noreferrer">React Redux Tutorial</a> by Codevolution.
 
 
 ## Run 🚀
