@@ -7,6 +7,6 @@ Following a YT **[Redux Tutorial](https://www.youtube.com/playlist?list=PLC3y8-r
 
 Included a pdf with my notes from the classes: **[justsomeRedux](https://github.com/AndrasE/Redux-tutorial/blob/main/justsomeRedux.pdf)**.
 
-**Subjects**: Basic principles, Actions, Action-creators, Reducers, Multiple Reducers, Combining Reducers, Middleware, Async actions, Async action creators.
+**Subjects**: Basic principles, Actions, Action-creators, Reducers, Multiple Reducers, Combining Reducers, Middleware, Async actions, Async action creators
 
 This repo served as a fundation for the **[React-Redux Tutorial](https://github.com/AndrasE/Redux-tutorial)**.
