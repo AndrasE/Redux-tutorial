@@ -1,35 +1,12 @@
 <h3 align="center">
-  Basic concepts using solely Redux
+  Basic concepts using Redux
 </h3>
 
-<br>
+## Hello there 👋
+Following a YT **[Redux Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK)** went through some of the basics to start on Redux without any UI.
 
-## Hey 👋
-Following a tutorial on YT went through some of the basics to start with on Redux without any UI. <br>
-This repo served as a fundation of
-<a href="https://github.com/AndrasE/Redux-tutorial" target="_blank" rel="noopener noreferrer">React-Redux Tutorial</a>.
-<br><br>
-Included a pdf with my notes from the classes. justsomeRedux ✌️
-<br><br>
-Subjects: Basic principles, Actions, Action-creators, Reducers, Multiple Reducers, Combining Reducers, Middleware, Async actions, Async action creators <br>
-<a href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK" target="_blank" rel="noopener noreferrer">React Redux Tutorial</a> by Codevolution.
+Included a pdf with my notes from the classes: **[justsomeRedux](https://github.com/AndrasE/Redux-tutorial/blob/main/justsomeRedux.pdf)**.
 
+**Subjects**: Basic principles, Actions, Action-creators, Reducers, Multiple Reducers, Combining Reducers, Middleware, Async actions, Async action creators.
 
-## Run 🚀
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-
-Start with cloning this repo on your local machine via cli or github-desktop:
-
-```sh
-$ git clone https://github.com/AndrasE/Redux-tutorial
-$ cd PROJECTNAME
-```
-To install and set up the library, run:
-```sh
-$ npm install -S myLib
-```
-Serving the app:
-```sh
-$ npm start
-```
-
+This repo served as a fundation for the **[React-Redux Tutorial](https://github.com/AndrasE/Redux-tutorial)**.
